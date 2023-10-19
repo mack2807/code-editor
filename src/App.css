@@ -1,0 +1,65 @@
+app.css
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.code-editor {
+  width: 100%;
+  max-height: 100%;
+  
+  background-color: #aa9c9c;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+.title{
+  text-align: center;
+  text-decoration: underline;
+
+
+}
+.code-toolbar button {
+  background: none;
+  
+  color: #fffcfc;
+  cursor: pointer;
+  font-size: 17px;
+  border: 2px solid #03040d; 
+  border-radius: 3px;
+  margin: 5px; 
+
+ 
+}
+
+.code-toolbar button:hover {
+  text-decoration: underline;
+}
+
+.code-input {
+  width: 100%;
+  height: 75vh;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  resize: none;
+  outline: none;
+  background-color:aquamarine
+}
+
+/* Style the buttons on hover and focus */
+button:hover, button:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+footer{
+  text-align: center;
+  text-decoration: solid;
+}
